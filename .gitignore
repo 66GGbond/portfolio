@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.netlify/
+public/gallery/images/25.png
+public/gallery/images/02.png
+public/gallery/images/03.png
+public/gallery/images/04.png
+public/gallery/images/10.png
+public/gallery/images/12.png
+public/gallery/images/24.png
