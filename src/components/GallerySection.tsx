@@ -15,50 +15,50 @@ interface GalleryItem {
 // Add your image/video filenames below after placing them in public/gallery/images/ or public/gallery/videos/
 //const galleryItems: GalleryItem[] = [
   // AI Images - place files in public/gallery/images/
-  // { src: '/gallery/images/your-image.png', type: 'image', category: 'image', title: 'Your Image Title' },
+  // { src: './gallery/images/your-image.png', type: 'image', category: 'image', title: 'Your Image Title' },
   // AI Videos - place files in public/gallery/videos/
-  // { src: '/gallery/videos/your-video.mp4', type: 'video', category: 'video', title: 'Your Video Title' },
+  // { src: './gallery/videos/your-video.mp4', type: 'video', category: 'video', title: 'Your Video Title' },
   // Project cases
-  // { src: '/gallery/images/your-project.png', type: 'image', category: 'project', title: 'Project Name' },
+  // { src: './gallery/images/your-project.png', type: 'image', category: 'project', title: 'Project Name' },
 //];
 
 // Generate placeholder items if no real items configured
 const galleryItems: GalleryItem[] = [
-  { src: '/gallery/images/02.png', type: 'image', category: 'image', title: '黑曜启示录' },
-  { src: '/gallery/images/04.png', type: 'image', category: 'image', title: '岁月的温柔注视' },
-  { src: '/gallery/images/12.png', type: 'image', category: 'image', title: '媚俗美学' },
-  { src: '/gallery/images/13.png', type: 'image', category: 'image', title: '新肉身' },
-  { src: '/gallery/images/25.png', type: 'image', category: 'image', title: '流水落花春去也' },
-  { src: '/gallery/images/07.png', type: 'image', category: 'image', title: '树荫之下' },
-  { src: '/gallery/images/22.png', type: 'image', category: 'image', title: '绮罗' },
-  { src: '/gallery/images/00.png', type: 'image', category: 'image', title: '生命的光泽' },
-  { src: '/gallery/images/03.png', type: 'image', category: 'image', title: '精神性的生活' },
-  { src: '/gallery/images/05.png', type: 'image', category: 'image', title: '沉默的力量' },
-  { src: '/gallery/images/10.png', type: 'image', category: 'image', title: '金色的生命' },
-  { src: '/gallery/images/16.png', type: 'image', category: 'image', title: '玉生烟' },
-  { src: '/gallery/images/21.png', type: 'image', category: 'image', title: '文明回音' },
-  { src: '/gallery/images/18.png', type: 'image', category: 'image', title: '月色' },
-  { src: '/gallery/images/20.png', type: 'image', category: 'image', title: '蒜皮王八' },
-  { src: '/gallery/images/19.png', type: 'image', category: 'image', title: '桃夭' },
-  { src: '/gallery/images/24.png', type: 'image', category: 'image', title: '静候葡萄成熟时' },
-  { src: '/gallery/images/01.png', type: 'image', category: 'image', title: '暮光球场' },
- { src: '/gallery/videos/NiceTry.mp4', type: 'video', category: 'video', title: 'Nice Try' },
- { src: '/gallery/videos/机甲.mp4', type: 'video', category: 'video', title: '机甲' },
- { src: '/gallery/videos/盼归.mp4', type: 'video', category: 'video', title: '盼归' },
+  { src: './gallery/images/02.png', type: 'image', category: 'image', title: '黑曜启示录' },
+  { src: './gallery/images/04.png', type: 'image', category: 'image', title: '岁月的温柔注视' },
+  { src: './gallery/images/12.png', type: 'image', category: 'image', title: '媚俗美学' },
+  { src: './gallery/images/13.png', type: 'image', category: 'image', title: '新肉身' },
+  { src: './gallery/images/25.png', type: 'image', category: 'image', title: '流水落花春去也' },
+  { src: './gallery/images/07.png', type: 'image', category: 'image', title: '树荫之下' },
+  { src: './gallery/images/22.png', type: 'image', category: 'image', title: '绮罗' },
+  { src: './gallery/images/00.png', type: 'image', category: 'image', title: '生命的光泽' },
+  { src: './gallery/images/03.png', type: 'image', category: 'image', title: '精神性的生活' },
+  { src: './gallery/images/05.png', type: 'image', category: 'image', title: '沉默的力量' },
+  { src: './gallery/images/10.png', type: 'image', category: 'image', title: '金色的生命' },
+  { src: './gallery/images/16.png', type: 'image', category: 'image', title: '玉生烟' },
+  { src: './gallery/images/21.png', type: 'image', category: 'image', title: '文明回音' },
+  { src: './gallery/images/18.png', type: 'image', category: 'image', title: '月色' },
+  { src: './gallery/images/20.png', type: 'image', category: 'image', title: '蒜皮王八' },
+  { src: './gallery/images/19.png', type: 'image', category: 'image', title: '桃夭' },
+  { src: './gallery/images/24.png', type: 'image', category: 'image', title: '静候葡萄成熟时' },
+  { src: './gallery/images/01.png', type: 'image', category: 'image', title: '暮光球场' },
+ { src: './gallery/videos/NiceTry.mp4', type: 'video', category: 'video', title: 'Nice Try' },
+ { src: './gallery/videos/机甲.mp4', type: 'video', category: 'video', title: '机甲' },
+ { src: './gallery/videos/盼归.mp4', type: 'video', category: 'video', title: '盼归' },
 ];
 
 const displayItems: GalleryItem[] =
   galleryItems.length > 0
     ? galleryItems
     : [
-        { src: '/gallery/images/placeholder-1.svg', type: 'image', category: 'image', title: 'Your AI Image 1' },
-        { src: '/gallery/images/placeholder-2.svg', type: 'image', category: 'image', title: 'Your AI Image 2' },
-        { src: '/gallery/images/placeholder-3.svg', type: 'image', category: 'image', title: 'Your AI Image 3' },
-        { src: '/gallery/images/placeholder-4.svg', type: 'image', category: 'image', title: 'Your AI Image 4' },
-        { src: '/gallery/images/placeholder-5.svg', type: 'image', category: 'image', title: 'Your AI Image 5' },
-        { src: '/gallery/images/placeholder-6.svg', type: 'image', category: 'image', title: 'Your AI Image 6' },
-        { src: '/gallery/images/placeholder-7.svg', type: 'video', category: 'video', title: 'Your AI Video 1' },
-        { src: '/gallery/images/placeholder-8.svg', type: 'video', category: 'video', title: 'Your AI Video 2' },
+        { src: './gallery/images/placeholder-1.svg', type: 'image', category: 'image', title: 'Your AI Image 1' },
+        { src: './gallery/images/placeholder-2.svg', type: 'image', category: 'image', title: 'Your AI Image 2' },
+        { src: './gallery/images/placeholder-3.svg', type: 'image', category: 'image', title: 'Your AI Image 3' },
+        { src: './gallery/images/placeholder-4.svg', type: 'image', category: 'image', title: 'Your AI Image 4' },
+        { src: './gallery/images/placeholder-5.svg', type: 'image', category: 'image', title: 'Your AI Image 5' },
+        { src: './gallery/images/placeholder-6.svg', type: 'image', category: 'image', title: 'Your AI Image 6' },
+        { src: './gallery/images/placeholder-7.svg', type: 'video', category: 'video', title: 'Your AI Video 1' },
+        { src: './gallery/images/placeholder-8.svg', type: 'video', category: 'video', title: 'Your AI Video 2' },
       ];
 
 const tabs: { key: MediaType; label: string; icon: React.ReactNode }[] = [

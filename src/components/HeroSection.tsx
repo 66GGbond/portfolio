@@ -24,7 +24,7 @@ export default function HeroSection() {
         className="absolute left-1/2 -translate-x-1/2 z-10 top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px]"
       >
         <Magnet padding={150} strength={3}>
-          <img src="/Syla.png" alt="Syla" className="w-full h-auto object-contain" />
+          <img src="./Syla.png" alt="Syla" className="w-full h-auto object-contain" />
         </Magnet>
       </FadeIn>
 
