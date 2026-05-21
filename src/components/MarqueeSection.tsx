@@ -2,27 +2,27 @@ import { useRef, useState, useEffect } from 'react';
 
 // Images from the user's gallery folder - replace with your own
 const row1Images = [
-  './gallery/images/02.png',
-  './gallery/images/04.png',
-  './gallery/images/12.png',
-  './gallery/images/13.png',
-  './gallery/images/25.png',
-  './gallery/images/07.png',
-  './gallery/images/22.png',
-  './gallery/images/00.png',
-  './gallery/images/03.png',
+  './gallery/images/02.jpg',
+  './gallery/images/04.jpg',
+  './gallery/images/12.jpg',
+  './gallery/images/13.jpg',
+  './gallery/images/25.jpg',
+  './gallery/images/07.jpg',
+  './gallery/images/22.jpg',
+  './gallery/images/00.jpg',
+  './gallery/images/03.jpg',
 ];
 
 const row2Images = [
-  './gallery/images/05.png',
-  './gallery/images/10.png',
-  './gallery/images/18.png',
-  './gallery/images/21.png',
-  './gallery/images/16.png',
-  './gallery/images/20.png',
-  './gallery/images/19.png',
-  './gallery/images/24.png',
-  './gallery/images/01.png',
+  './gallery/images/05.jpg',
+  './gallery/images/10.jpg',
+  './gallery/images/18.jpg',
+  './gallery/images/21.jpg',
+  './gallery/images/16.jpg',
+  './gallery/images/20.jpg',
+  './gallery/images/19.jpg',
+  './gallery/images/24.jpg',
+  './gallery/images/01.jpg',
 ];
 
 export default function MarqueeSection() {
